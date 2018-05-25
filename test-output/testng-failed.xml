@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AndroidAutomation]">
+  <test thread-count="5" name="testngTest(failed)">
+    <classes>
+      <class name="com.qa.pages.TestApiPage">
+        <methods>
+          <include name="hortizonalSwipe"/>
+          <include name="scrollToElement"/>
+          <include name="beforeTest"/>
+          <include name="multiTouch"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qa.pages.TestApiPage -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [AndroidAutomation] -->

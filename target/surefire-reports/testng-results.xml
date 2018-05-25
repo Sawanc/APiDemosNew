@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AndroidAutomation" duration-ms="53615" started-at="2018-05-25T18:53:39Z" finished-at="2018-05-25T18:54:32Z">
+    <groups>
+    </groups>
+    <test name="testngTest" duration-ms="53615" started-at="2018-05-25T18:53:39Z" finished-at="2018-05-25T18:54:32Z">
+      <class name="com.qa.pages.TestApiPage">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qa.pages.TestApiPage@3b81a1bc]" name="beforeTest" is-config="true" duration-ms="6230" started-at="2018-05-26T00:23:39Z" finished-at="2018-05-26T00:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="tapOnMethod()[pri:0, instance:com.qa.pages.TestApiPage@3b81a1bc]" name="tapOnMethod" duration-ms="1878" started-at="2018-05-26T00:23:45Z" finished-at="2018-05-26T00:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tapOnMethod -->
+        <test-method status="PASS" signature="scrollToElement()[pri:0, instance:com.qa.pages.TestApiPage@3b81a1bc]" name="scrollToElement" duration-ms="8169" started-at="2018-05-26T00:23:47Z" finished-at="2018-05-26T00:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollToElement -->
+        <test-method status="PASS" signature="seekBarMove()[pri:0, instance:com.qa.pages.TestApiPage@3b81a1bc]" name="seekBarMove" duration-ms="4996" started-at="2018-05-26T00:23:55Z" finished-at="2018-05-26T00:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seekBarMove -->
+        <test-method status="PASS" signature="hortizonalSwipe()[pri:0, instance:com.qa.pages.TestApiPage@3b81a1bc]" name="hortizonalSwipe" duration-ms="21982" started-at="2018-05-26T00:24:00Z" finished-at="2018-05-26T00:24:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hortizonalSwipe -->
+        <test-method status="PASS" signature="multiTouch()[pri:0, instance:com.qa.pages.TestApiPage@3b81a1bc]" name="multiTouch" duration-ms="8676" started-at="2018-05-26T00:24:22Z" finished-at="2018-05-26T00:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiTouch -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.pages.TestApiPage@3b81a1bc]" name="afterTest" is-config="true" duration-ms="1675" started-at="2018-05-26T00:24:31Z" finished-at="2018-05-26T00:24:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qa.pages.TestApiPage -->
+    </test> <!-- testngTest -->
+  </suite> <!-- AndroidAutomation -->
+</testng-results>

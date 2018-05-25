@@ -1,0 +1,14 @@
+<suite name="AndroidAutomation">
+    <listeners>
+	<listeners class-name="utilities.Listener"></listeners>
+	</listeners>
+	
+	<test name="testngTest">
+		<classes>
+		     <!-- <class name="ApiDemo.ApiDemoTest"/>-->
+			   <class name="com.qa.pages.TestApiPage" /> 
+			  <!--     <class name="com.api.qa.testcases.ViewsPageTest" /> --> 
+		
+		</classes>
+	</test>
+</suite>
