@@ -43,8 +43,7 @@ public class TestApiPage {
          caps.setCapability("deviceName", "Nexus 5X API P");
          caps.setCapability("udid", "emulator-5554"); //DeviceId from "adb devices" command
          caps.setCapability("platformName", "Android");
-         caps.setCapability("platformVersion", "P");
-         caps.setCapability("skipUnlock","true");
+         caps.setCapability("platformVersion", "Nougat");
          caps.setCapability("appPackage", "io.appium.android.apis");
          caps.setCapability("appActivity","io.appium.android.apis.ApiDemos");
          caps.setCapability("noReset","true");
