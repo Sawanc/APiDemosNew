@@ -51,7 +51,7 @@ public class TestApiPage {
          driver = new AndroidDriver<MobileElement>(new URL("http://0.0.0.0:4723/wd/hub"),caps);
      }
      
-	@Test(priority=0)
+	@Test(priority=0)/* Touch Method*/
   public void tapOnMethod() throws IOException 
   {
 		ScreenShots ss = new ScreenShots((AndroidDriver<MobileElement>) driver);
@@ -67,7 +67,7 @@ public class TestApiPage {
 		
 		
   }
-	@Test(priority=1)
+	@Test(priority=1)/*Scroll Method*/
 	public void scrollToElement() throws InterruptedException, IOException
 	{
 		ScreenShots ss = new ScreenShots((AndroidDriver<MobileElement>) driver);
